@@ -1,0 +1,76 @@
+<html>
+ <head>
+  <title>
+   Responsive Cards
+  </title>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <div class="scroll-container">
+   <div class="container">
+    <div class="card">
+     <img alt="Person with red background" height="300" src="img/Fred.jpg" width="300"/>
+     <div class="card-content">
+      <h3>
+       Fred
+      </h3>
+      <p>
+       JEACAhdbb kdsvdsbv 
+      </p>
+     </div>
+    </div>
+    <div class="card">
+     <img alt="Person with blue background" height="300" src="img/Kryst.jpg" width="300"/>
+     <div class="card-content">
+      <h3>
+       Kryst
+      </h3>
+      <p>
+       fds hdsvfbsvdav df
+      </p>
+     </div>
+    </div>
+    <div class="card">
+     <img alt="Person with colorful background" height="300" src="img/Wyn.jpg" width="300"/>
+     <div class="card-content">
+      <h3>
+       Wyn
+      </h3>
+      <p>
+       fdbda dafbrwfeqe  eq
+      </p>
+     </div>
+    </div>
+    <div class="card">
+     <img alt="Person with green background" height="300" src="img/Geh.jpg" width="300"/>
+     <div class="card-content">
+      <h3>
+       Geh
+      </h3>
+      <p>
+       eqge eqrbv qer
+      </p>
+     </div>
+    </div>
+    <div class="card">
+     <img alt="Person with yellow background" height="300" src="img/Quia.jpg" width="300"/>
+     <div class="card-content">
+      <h3>
+       Quia
+      </h3>
+      <p>
+       quia dsc  hdbfsc.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script>
+   document.querySelector('.scroll-container').addEventListener('wheel', (evt) => {
+            evt.preventDefault();
+            document.querySelector('.scroll-container').scrollLeft += evt.deltaY;
+        });
+  </script>
+ </body>
+</html>
